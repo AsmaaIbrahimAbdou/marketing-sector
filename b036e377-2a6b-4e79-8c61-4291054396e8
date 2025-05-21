@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketing Sector Library</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #333333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            padding: 20px;
+            background-color: #ff0000;
+            color: #ffffff;
+        }
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .card {
+            background-color: #ffffff;
+            border: 1px solid #dddddd;
+            border-radius: 8px;
+            width: 200px;
+            margin: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card img {
+            width: 100px;
+            height: 100px;
+            margin-top: 20px;
+        }
+        .card h3 {
+            color: #ff0000;
+        }
+        .card p {
+            padding: 0 10px 20px;
+        }
+        .card a {
+            display: block;
+            padding: 10px;
+            background-color: #ff0000;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 0 0 8px 8px;
+        }
+        .card a:hover {
+            background-color: #cc0000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Marketing Sector Library</h1>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <img src="https://via.placeholder.com/100" alt="Strategy Icon">
+                <h3>Strategy</h3>
+                <p>Annual plans, market research, SWOT analysis, and more.</p>
+                <a href="#">Go to Strategy</a>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/100" alt="Policies Icon">
+                <h3>Policies</h3>
+                <p>Branding guidelines, social media policy, internal procedures.</p>
+                <a href="#">Go to Policies</a>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/100" alt="Templates Icon">
+                <h3>Templates</h3>
+                <p>Presentations, reports, spreadsheets, and more.</p>
+                <a href="#">Go to Templates</a>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/100" alt="Reports Icon">
+                <h3>Reports</h3>
+                <p>Monthly reports, campaign results, KPIs.</p>
+                <a href="#">Go to Reports</a>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/100" alt="Media Icon">
+                <h3>Media</h3>
+                <p>Images, videos, logos, and other media assets.</p>
+                <a href="#">Go to Media</a>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/100" alt="Training Icon">
+                <h3>Training</h3>
+                <p>Workshops, recorded sessions, guides, and more.</p>
+                <a href="#">Go to Training</a>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/100" alt="Committees Icon">
+                <h3>Committees</h3>
+                <p>Meeting minutes, decisions, correspondence.</p>
+                <a href="#">Go to Committees</a>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/100" alt="Sector Head Office Icon">
+                <h3>Sector Head Office</h3>
+                <p>Internal memos, official letters, confidential documents.</p>
+                <a href="#">Go to Sector Head Office</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
